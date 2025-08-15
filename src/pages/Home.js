@@ -10,7 +10,7 @@ export default function Home() {
 
   function handleDelete(id){
     setSmoothies(prevSmoothies=>{
-      return prevSmoothies.filter(s=>s.id!=id)
+      return prevSmoothies.filter(s=>s.id!==id)
     })
   }
 
